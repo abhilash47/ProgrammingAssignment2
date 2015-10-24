@@ -1,5 +1,6 @@
 
-makeCacheMatrix <- function(x = matrix()) {
+#the following function creates a special matrix and caches the inverse of the special matrix
+makeCacheMatrix <- function(x = matrix()) { #initialises the inverse to a null value as a holder for the inverse matrix
 i <- NULL
   setMat <- function(y) {
     x <<- y
